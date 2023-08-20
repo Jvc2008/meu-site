@@ -69,7 +69,7 @@ input:focus{
     transition-duration: 0.2s;
 }
 div#perfil{
-    background: var(--cor1) url(https://www.monteiro.pb.gov.br/wp-content/uploads/2021/10/profile.png) center center no-repeat fixed;
+    background: var(--cor1) url(https://www..pb.gov.br/wp-content/uploads/2021/10/profile.png) center center no-repeat fixed;
     background-size: cover;
     border-radius: 45%;
     width: 50px;
@@ -110,42 +110,50 @@ div#d1{
     height: 20%;
 }
 div#d2{
-    background-color: var(--por);
+    background: blue url("imagens/portugues.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
 div#d3{
-    background-color: var(--red);
+    background: blue url("imagens/redaçao.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
 div#d4{
-    background-color: var(--geo);
+    background: blue url("imagens/geografia.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
 div#d5{
-    background-color: var(--ing);
+    background: blue url("imagens/ingles.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
 div#d6{
-    background-color: var(--his);
+    background: blue url("imagens/historia.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
 div#d7{
-    background-color: var(--quim);
+    background: blue url("imagens/quimica.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
 div#d8{
-    background-color: var(--fis);
+    background: blue url("imagens/fisica.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
 div#d9{
-    background-color: var(--biol);
+    background: blue url("imagens/biologia.jpg") center center no-repeat ;
+    background-size: cover;
     width: 12%;
     height: 20%;
 }
