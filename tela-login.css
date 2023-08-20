@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+:root{
+    --cor1:#5BAAF0;
+    --cor2:#4678A3;
+    --cor3:#A043F0;
+    --cor4:#6926A3;
+    --cor5:#F0D250;
+    --cor6:#A59BB3;
+    --por:#c8a2c8;
+    --mat:#6F7BFF;
+    --his:#383E80;
+    --geo:#817094;
+    --red: #FF5E60;
+    --ing:#6ACCB2;
+    --quim:#8A7BBD;
+    --biol:#A8D9FD;
+    --fis:#E6E61C;
+    --font1: 'Ubuntu', sans-serif;
+    --font2:'Inter', sans-serif;
+}
+*{
+    font-family: var(--font1);
+}
+body{
+    background-color: var(--cor1);
+}
+h2{
+    position: absolute;
+    left: 39%;
+    top: 18%;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-align: right;
+   font-size: 0.6em;
+    color: white;
+}
+div{
+    border: 1px solid black;
+    background-color: var(--cor2);
+    opacity: 100%;
+    width: 190px;
+    padding: 30px;
+    border-radius: 7.5px;
+    position: absolute;
+    margin: 0px;
+    left: 42%;
+    top: 30%;
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+input{
+    background-color: var(--cor2);
+    opacity: 100%;
+    margin: 7.5px;
+    margin-bottom: 10px;
+}
+.text{
+    border-radius: 6px;
+    height: 1.55em;
+    border: 0.5px solid black;
+}
+.text:focus{
+    outline-color: var(--cor2);
+    background-color: rgba(128, 128, 128, 0.336);
+}
+.submit{
+    background-color: var(--cor4);
+    width: 180px;
+    border-radius: 9.5px;
+    color: white;
+    height: 30px;
+    border: 0.5px solid black;
+}
