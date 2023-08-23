@@ -59,12 +59,13 @@ body{
 }
 div.principal{
     background-color: var(--d1);
-    padding: 17px 25px 17px 25px;
+   
     border-radius: 24px;
     margin-top: 12px;
-    padding-left: 50px;
-    padding-right: 50px;
-   
+  
+   padding: 50px;
+   padding-top: 30px;
+   padding-bottom: 70px;
 }
 div.principal h1{
     display: inline-block;
@@ -94,15 +95,18 @@ div.principal a:hover{
     outline: 4px solid var(--cor2);
     transition-duration: 0.05s;
     box-shadow: 2px 3px 6px var(--d2);
+   
 }
-div.imagem{
-    display: inline-block;
+img{
+    display: block;
     background:yellow url('imagens/foto preto.jpg') center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left:500px ; 
-    width: 100px;
-    height: 100px;
+   position: absolute;
+    top: 26.5%;
+    left: 68%;
+    width: 285px;
+    height: 211px;
 }
 div.assuntos{
     padding: 10px 50px 10px 50px;
@@ -119,6 +123,7 @@ div.t1{
     width: 300px;
     border-radius: 8.5px;
     padding-bottom: 10px;
+    margin: 6px;
     
 }
 div.t1:hover{
