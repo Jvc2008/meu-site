@@ -68,7 +68,7 @@ input:focus{
     outline: 2.5px solid white;
     transition-duration: 0.2s;
 }
-div#perfil{
+input#container-fluid{
     background: var(--cor1) url(https://www..pb.gov.br/wp-content/uploads/2021/10/profile.png) center center no-repeat fixed;
     background-size: cover;
     border-radius: 45%;

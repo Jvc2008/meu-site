@@ -21,17 +21,22 @@ body, html{
     width: 100vw;
     height: 100vh;
 }
+body{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
     color: black;
 }
 header{
     background-color: var(--cor1);
-    position: sticky;
+ 
     margin: left;
     padding: 15px 20px 0px 20px;
     border-radius: 4.5px;
-    width: 100%;
+    width: 95.8vw;
+    position: absolute;
+    left: 0%;
 }
 header h1{
     text-align: center;
@@ -45,7 +50,7 @@ nav{
     padding: 8.5px;
     border-radius: 8.5px;
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.25);
-    width: 100vw;
+    width: 95vw;
 }
 nav a{
     text-decoration: none;
@@ -64,10 +69,13 @@ body{
 }
 div.principal{
     background-color: var(--d1);
-   width: 100vw;
+   width: 95.8vw;
+   position: absolute;
+   left: 0%;
+   top: 22.2%;
 
-    border-radius: 24px;
-    margin-top: 12px;
+    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
   
    padding: 20px;
    padding-top: 30px;
@@ -105,11 +113,11 @@ div.principal a:hover{
 }
 img{
     display: block;
-    background:yellow url('imagens/foto preto.jpg') center center fixed;
+    background:yellow url('../imagens/portugues.jpg') center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
    position: absolute;
-    top: 26.5%;
+    top: 5.5%;
     left: 68%;
     width: 285px;
     height: 211px;
@@ -117,7 +125,10 @@ img{
 div.assuntos{
     padding: 10px 50px 10px 50px;
     font-family: var(--font1);
-    
+    position: absolute;
+    left: 0%;
+    top: 58%;
+    width: 95.8vw;
 }
 h2.titulo{
     text-align: center;
@@ -130,6 +141,7 @@ div.t1{
     border-radius: 8.5px;
     padding-bottom: 10px;
     margin: 6px;
+    
     
 }
 div.t1:hover{
