@@ -18,38 +18,63 @@
 body{
     background-color: white;
 }
+a{
+    text-decoration: none;
+}
 header{
     background-color: var(--cor1);
-    
+ 
     padding: 15px 20px 0px 20px;
-   
     border-radius: 4.5px;
-    
-    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.25);
+   height: 14.5vh;
 }
 header h1{
+    text-align: left;
     color: var(--cor5);
     font-family: var(--font1);
-    font-size: 2.0em;
     font-weight: bold;
-    text-align: center;
+    font-size: 2em;
 }
-nav{
-    background-color: var(--cor6);
-    padding: 8.5px;
-    border-radius: 4.5px;
-    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.25);
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
 }
-nav a{
+nav.bg-body-tertiary{
+    position: absolute;
+    left: 78%;
+    top: 0%;
+}
+button.btn-outline-success:hover{
+    background-color: var(--cor4);
     color: white;
+    
+}
+.btn-outline-succes{
+    --bs-btn-color: var(--cor3);
+    --bs-btn-border-color:var(--cor3);
+    --bs-btn-hover-bg:var(--cor3);
+}
+nav.nav{
+    background-color: var(--cor6);
+    border-radius: 8.5px;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 1%;
+    top: 9%;
+    width: 95%;
+
+}
+nav.nav a{
     text-decoration: none;
+    color: white;
     font-family: var(--font1);
     font-weight: bold;
+    margin: 8px;
 }
-nav a:hover{
+
+nav.nav a:hover{
     background-color: var(--cor1);
-    border-radius: 2.5px;
-    padding: 3.5px;
+    border-radius: 5.5px;
+    padding: 1px;
 }
 main{
    

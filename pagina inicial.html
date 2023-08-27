@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="pagina inicial.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="pagina inicial.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    
 </head>
 <body>   
 
 <header>
     <h1>Nome do Site</h1> 
-    
-      
-    <nav>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+        </div>
+        </nav>
+        
+    <nav class="nav">
     <a href="#">Fale Conosco</a>
     <a href="diciplina.html">a</a>
     </nav>
+</header>
     
-  
-
-      </header>
-      
 
 
 <main>
@@ -100,6 +105,6 @@
        
     
 </main>
-<footer></footer>   
+
 </body>
 </html>
