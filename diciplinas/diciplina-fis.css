@@ -28,53 +28,73 @@ a{
     text-decoration: none;
     color: black;
 }
+
 header{
     background-color: var(--cor1);
  
-    margin: left;
     padding: 15px 20px 0px 20px;
     border-radius: 4.5px;
-    width: 95.8vw;
-    position: absolute;
-    left: 0%;
+   height: 14.5vh;
 }
 header h1{
-    text-align: center;
+    text-align: left;
     color: var(--cor5);
     font-family: var(--font1);
     font-weight: bold;
     font-size: 2em;
 }
-nav{
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+nav.bg-body-tertiary{
+    position: absolute;
+    left: 78%;
+    top: 0%;
+}
+button.btn-outline-success:hover{
+    background-color: var(--cor4);
+    color: white;
+    
+}
+.btn-outline-succes{
+    --bs-btn-color: var(--cor3);
+    --bs-btn-border-color:var(--cor3);
+    --bs-btn-hover-bg:var(--cor3);
+}
+nav.nav{
     background-color: var(--cor6);
-    padding: 8.5px;
     border-radius: 8.5px;
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.25);
-    width: 95vw;
+    position: absolute;
+    left: 1%;
+    top: 9%;
+    width: 95%;
+
 }
-nav a{
+nav.nav a{
     text-decoration: none;
     color: white;
     font-family: var(--font1);
     font-weight: bold;
     margin: 8px;
 }
-header a:hover{
+
+nav.nav a:hover{
     background-color: var(--cor1);
     border-radius: 5.5px;
-    padding: 3.5px;
+    padding: 1px;
 }
 body{
     background-color: var(--d2);
 }
 div.principal{
     background-color: var(--d1);
-   width: 95.8vw;
-   position: absolute;
+   width: 115.8vw;
+   
    left: 0%;
-   top: 22.2%;
+   top: 2%;
 
-    border-radius: 20px;
+
     margin: 0px 0px 20px 0px;
   
    padding: 20px;
@@ -100,6 +120,8 @@ div.principal a{
     color:white;
     border-radius: 23px;
     padding: 5px;
+    margin: 5px 1px;
+    
 }
 a h2{
     margin: 2px;
@@ -113,14 +135,15 @@ div.principal a:hover{
 }
 img{
     display: block;
-    background:yellow url('../imagens/fisica.jpg') center center fixed;
+    margin: 10px;
+    background:yellow url('../imagens/biologia.jpg') center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
    position: absolute;
-    top: 5.5%;
-    left: 68%;
+    top: 16.5%;
+    left: 79%;
     width: 285px;
-    height: 211px;
+    height: 199px;
 }
 div.assuntos{
     padding: 10px 50px 10px 50px;

@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="diciplinas/diciplina-por.css">
+   
     <style>
         .conteudo{
             display: inline-block
@@ -12,26 +15,37 @@
     </style>
 </head>
 <body>
-   <main>
     <header>
-        <h1>Nome do Site</h1>
-        <nav>
-        <a href="#">Fale Conosco</a>
-        <a href="pagina inicial.html">Menu</a>
-    </nav>
+    <h1>Nome do Site</h1> 
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
+            
+        <nav class="nav">
+            <a href="#">Fale Conosco</a>
+            <a href="diciplina.html">a</a>
+        </nav>
     </header>
+        
+    <main>
     <div class="principal">
         <h1>diciplina</h1> <br>
     </div>
     <div class="assuntos">
-     <br>   <a href="artigo 1.html">
-        <div class="t1">
+     <br>
+        <a href="artigo 1.html">
+            <div class="t1">
             
                 <h3>Titulo</h3> <br>
                 <p>Descricao</p>
 
-        </div> 
-            </a>
+           </div> 
+        </a>
     </div>
    </main>
     
