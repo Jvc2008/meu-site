@@ -20,14 +20,24 @@
     --font1: 'Ubuntu', sans-serif;
     --font2:'Inter', sans-serif; 
 }
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
+    color: black;
 }
+
 header{
     background-color: var(--cor1);
+ 
     padding: 15px 20px 0px 20px;
-    border-radius: 4.5px;
-    height: 14.5vh;
+   height: 14.5vh;
+   width: 100vw;
 }
 header h1{
     text-align: left;
@@ -53,10 +63,7 @@ input#btLogin{
 input#btLogin:hover{
     background-color: var(--cor4);
     color: white;
-    transition-property: color, background-color, border-color, box-shadow;
-    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
-    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
-    transition-delay: 0s, 0s, 0s, 0s;;
+    transition: 0.75s;
 }
 .bg-body-tertiary{
     --bs-bg-opacity: 0;
@@ -69,6 +76,7 @@ nav.bg-body-tertiary{
 button.btn-outline-success:hover{
     background-color: var(--cor4);
     color: white;
+    transition: 0.75s;
 }
 .btn-outline-succes{
     --bs-btn-color: var(--cor3);
@@ -83,6 +91,7 @@ nav.nav{
     left: 1%;
     top: 9%;
     width: 95%;
+
 }
 nav.nav a{
     text-decoration: none;
@@ -91,6 +100,7 @@ nav.nav a{
     font-weight: bold;
     margin: 8px;
 }
+
 nav.nav a:hover{
     background-color: var(--cor1);
     border-radius: 5.5px;
